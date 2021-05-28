@@ -1,1 +1,9 @@
-
+server:
+  port: 8081
+cas:
+  oauth2:
+    resource-server:
+      opaque:
+        introspection-uri: https://cas.example.org:8443/cas/oauth2.0/introspect
+        client-id: cas-oauth2-client
+        client-secret: 1
